@@ -1,5 +1,6 @@
 import Header from "../component/Header";
 import Footer from "../component/Footer";
+import { Link } from "react-router-dom";
 
 export default function Stays() {
   return (
@@ -28,6 +29,9 @@ export default function Stays() {
                 <p className="card-text">
                   <small className="text-muted">Last updated 3 mins ago</small>
                 </p>
+                <Link className="btn btn-primary" to="/stays/1">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -50,6 +54,9 @@ export default function Stays() {
                 <p className="card-text">
                   <small className="text-muted">Last updated 3 mins ago</small>
                 </p>
+                <Link className="btn btn-primary" to="/stays/2">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -63,7 +70,7 @@ export default function Stays() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Wondering the suburbs on England</h5>
+                <h5 className="card-title">Cozy Cottage Retreat</h5>
                 <p className="card-text">
                   Bromley Hall is an early Tudor period manor house in
                   Bromley-by-Bow, Tower Hamlets, London. Located on the
@@ -73,6 +80,9 @@ export default function Stays() {
                 <p className="card-text">
                   <small className="text-muted">Last updated 30 mins ago</small>
                 </p>
+                <Link className="btn btn-primary" to="/stays/3">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
@@ -96,6 +106,9 @@ export default function Stays() {
                 <p className="card-text">
                   <small className="text-muted">Last updated 10 mins ago</small>
                 </p>
+                <Link className="btn btn-primary" to="/stays/4">
+                  View More
+                </Link>
               </div>
             </div>
           </div>
